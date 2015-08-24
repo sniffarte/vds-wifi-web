@@ -12,7 +12,7 @@ RUN apt-get update
 RUN apt-get install -y nodejs
 
 # Add files
-ADD packages.json /vds-wifi/
+ADD package.json /vds-wifi/
 ADD install.sh /opt/install.sh
 
 
